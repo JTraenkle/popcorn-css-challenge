@@ -1,4 +1,119 @@
-/*COLORS:
+#Top {
+    background-color: #FFDBAA;
+    font-family: sans-serif;
+    margin: 0; 
+    }
+#Middle {
+    background-color: #D4A76A;
+    border-top: 3px;
+    height: 200px;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    }
+#Bottom {
+    background-color: #D4A76A;
+    height: 450px;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    }
+.Title {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    padding: 40px;
+    }
+.box {    
+    background: white;
+    width: 90%;
+    margin: 8px;
+    height: 175px;
+    vertical-align: center;
+    text-align: center;
+    border-style: outset;
+    font-family: sans-serif;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.75);
+    }
+  .boxTwo {
+    background: white;
+    width: 90%;
+    margin: 1%;
+    height: 200px;
+    vertical-align: center;
+    text-align: center;
+    border-style: outset;
+    font-family: sans-serif;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.75);
+    }    
+ h1{
+    display: inline-block;
+    color: #553100;
+    }
+.Title button{
+    display: inline block;
+    height: 50px;
+    background: #805215;
+    color: white;
+    border-style: none;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    }
+.box button{
+    display: inline-block;
+    height: 50px;
+    background: #805215;
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0;
+    border-style: outset;
+    }
+.box h3{
+    text-align: center;
+    font-weight: bold;
+    }
+.box p{
+    text-align: left;
+  }
+.Title h1{
+     text-align: left;
+     }
+.boxTwo button{
+    display: inline-block;
+    height: 50px;
+    background: #805215;
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0;
+    border-style: outset;
+    }/*COLORS:
 Header background - #FFDBAA
 button - #805215
 Header Text - #553100
